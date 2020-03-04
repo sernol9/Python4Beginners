@@ -1,2 +1,3 @@
 # sego
-My projects
+My exercises from Intro to Python. 
+Hope someone finds it useful
