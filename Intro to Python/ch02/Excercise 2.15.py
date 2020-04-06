@@ -3,6 +3,8 @@
 Created on Fri Nov  8 20:18:35 2019
 
 @author: olivia
+
+First time making changes to the file and using GitHub
 """
 
 numero1 = float(input('Please provvide a float number:'))
