@@ -1,0 +1,15 @@
+body {
+    background-color: #efefef;
+    padding: 2em
+  }
+p {
+      font-size: 20px;
+  }
+.one {
+    color: #24b301;
+  }
+.container {
+    border: 3px dashed #afafaf;
+    background-color: white;
+    padding: 2em;
+  }
