@@ -1,0 +1,49 @@
+html,
+body {
+  height: 100%;
+  padding: 0px;
+}
+
+.flex-row {
+  display: flex;
+  height: 100%;
+}
+
+.sidebar {
+  background-color: #6583dd;
+  color: white;
+  padding: 1em;
+  flex: 0 0 50px;
+}
+
+.main-window {
+  flex: 1 1 auto;
+  background-color: #f8f9fc;
+}
+
+.content {
+  padding: 1em;
+  overflow-y: scroll;
+  height: 100%;
+}
+
+.sidebar-link,
+.sidebar-link:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.fa {
+  margin-right: 0.5em;
+}
+
+.col {
+  border: 5px solid #6583dd;
+}
+
+@media only screen and (min-width: 768px) {
+  .sidebar {
+    flex: 0 0 200px;
+  }
+}
+

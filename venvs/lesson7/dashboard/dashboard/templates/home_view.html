@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Dashboard</h1>
+
+<div class="row row-cols-1 row-cols-md-3">
+  <div class="col mb-4">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title">Memory</h5>
+        <p class="card-text">{{ memory }}%</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title">CPU</h5>
+        <p class="card-text">{{ cpu }}%</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title">Disk Free</h5>
+        <p class="card-text">{{ hdd |floatformat:"2" }} GB</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row row-cols-1 row-cols-md-2">
+  <div class="col mb-4">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title">CSV Chart</h5>
+        {% include "partials/csv_chart.html" %}
+      </div>
+    </div>
+  </div>
+
+  <div class="col mb-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">CSV Table</h5>
+        <div style="overflow-y: scroll; height: 300px;">
+          {% include "partials/csv_table.html" %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
