@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+  <head>
+    <title> My Awesome Website </title>
+    <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <h1>Anna Smith</h1>
+    <h2>About Me</h2>
+    <p>I'm Anna Smith, a developer based in San Francisco. I have 10 years of experience in the graphic design world,
+        specializing in the creation of responsive websites.</p>
+    <h2>Experience</h2>
+    <p>I <b>recently</b> <i>graduated</i> from a <em>Front-End Web Development</em> course at General Assembly, where I
+        learned HTML,
+        CSS,
+        JavaScript, and jQuery and how to be an awesome front-end web developer! During my spare time, I enjoy painting,
+        cooking, and hiking.</p>
+    <h3>Skills</h3>
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>jQuery</li>
+        <li>JavaScript</li>
+        <li>Responsive Design</li>
+    </ol>
+    <p>
+        <a href="{% url "about_view" %}">Learn about me</a>
+    </p>
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Username</th>
+                <th>First Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2</td>
+                <td>bob</td>
+                <td>Bob</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>al</td>
+                <td>Alice</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>al</td>
+                <td>Alice</td>
+            </tr>
+        </tbody>
+    </table>
+    <form action="." method="POST">
+        {% csrf_token %}
+        <p><label>Email: </label><input type="text" name="email" placeholder="Email" /></p>
+        <p><input type="checkbox" name="signup" /> Sign me up for the newsletter</p>
+        <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
+
