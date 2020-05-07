@@ -1,0 +1,71 @@
+PATH=/c/Users/olivi.000/bin
+/mingw64/bin
+/usr/local/bin
+/usr/bin
+/bin
+/mingw64/bin
+/usr/bin
+/c/Users/olivi.000/bin
+/c/Python38/Scripts
+/c/Python38
+/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS
+/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS
+/c/WINDOWS/system32
+/c/WINDOWS
+/c/WINDOWS/System32/Wbem
+/c/WINDOWS/System32/WindowsPowerShell/v1.0
+/c/WINDOWS/System32/OpenSSH
+/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL
+/c/Program Files/Intel/Intel(R) Management Engine Components/DAL
+/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT
+/c/Program Files/Intel/Intel(R) Management Engine Components/IPT
+/c/Program Files/Intel/WiFi/bin
+/c/Program Files/Common Files/Intel/WirelessCommon
+/c/Program Files (x86)/Plantronics/Spokes3G
+/cmd
+/mingw64/bin
+/usr/bin
+/c/Program Files/nodejs
+/c/ProgramData/chocolatey/bin
+/c/Users/olivi.000/AppData/Local/Programs/Python/Python37/Scripts
+/c/Users/olivi.000/AppData/Local/Programs/Python/Python37
+/c/Users/olivi.000/AppData/Local/Microsoft/WindowsApps
+/c/Program Files/Intel/WiFi/bin
+/c/Program Files/Common Files/Intel/WirelessCommon
+/c/Users/olivi.000/AppData/Local/Programs/Microsoft VS Code/bin
+/c/Users/olivi.000/AppData/Local/GitHubDesktop/bin
+/c/Users/olivi.000/AppData/Roaming/npm
+/usr/bin/vendor_perl
+/usr/bin/core_perl
+ORIGINAL_PATH=/mingw64/bin
+/usr/bin
+/c/Users/olivi.000/bin
+/c/Python38/Scripts
+/c/Python38
+/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS
+/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS
+/c/WINDOWS/system32
+/c/WINDOWS
+/c/WINDOWS/System32/Wbem
+/c/WINDOWS/System32/WindowsPowerShell/v1.0
+/c/WINDOWS/System32/OpenSSH
+/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL
+/c/Program Files/Intel/Intel(R) Management Engine Components/DAL
+/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT
+/c/Program Files/Intel/Intel(R) Management Engine Components/IPT
+/c/Program Files/Intel/WiFi/bin
+/c/Program Files/Common Files/Intel/WirelessCommon
+/c/Program Files (x86)/Plantronics/Spokes3G
+/cmd
+/mingw64/bin
+/usr/bin
+/c/Program Files/nodejs
+/c/ProgramData/chocolatey/bin
+/c/Users/olivi.000/AppData/Local/Programs/Python/Python37/Scripts
+/c/Users/olivi.000/AppData/Local/Programs/Python/Python37
+/c/Users/olivi.000/AppData/Local/Microsoft/WindowsApps
+/c/Program Files/Intel/WiFi/bin
+/c/Program Files/Common Files/Intel/WirelessCommon
+/c/Users/olivi.000/AppData/Local/Programs/Microsoft VS Code/bin
+/c/Users/olivi.000/AppData/Local/GitHubDesktop/bin
+/c/Users/olivi.000/AppData/Roaming/npm
