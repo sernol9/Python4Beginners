@@ -1,0 +1,11 @@
+{
+    "python.pythonPath": "C:\\Users\\olivi.000\\Dropbox\\Public\\My Library\\IT\\SW Programming\\sego\\venvs\\lesson7\\Scripts\\python.exe",
+    "format.enable": true,
+    "[html]": {
+        "editor.formatOnSave": true
+    },
+    "emmet.includeLanguages": {
+        "javascript": "html"
+    },
+    "vs-color-picker.autoLaunch": true,
+}

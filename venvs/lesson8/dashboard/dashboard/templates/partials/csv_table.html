@@ -1,0 +1,20 @@
+<div class="table-responsive">
+  <table class="table table-sm table-bordered table-striped table-hover">
+    <thead class="thead-dark">
+      <tr>
+        {% for key in csv_data.0.keys %}
+        <th scope="col">{{ key }}</th>
+        {% endfor %}
+      </tr>
+    </thead>
+    <tbody>
+      {% for row in csv_data %}
+      <tr>
+        <th scope="row">{{ row.year }}</th>
+        <th><a href="./?waste_type={{ row.waste_type }}" style="color: inherit;">{{ row.waste_type }}</a></th>
+        <th>{{ row.recycling_rate }}</th>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>

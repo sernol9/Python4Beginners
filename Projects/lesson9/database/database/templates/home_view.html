@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Products</h1>
+  <form method="GET" action="." style="margin-bottom: 1em;">
+    <div class="form-group">
+      <label for="search">Search</label>
+      <input type="text" class="form-control" name="search" placeholder="Search">
+    </div>
+    <button type="submit" class="btn btn-primary">Search</button>
+  </form>
+
+  <div class="row row-cols-3">
+        {% for item in qs %}
+        <div class="col">
+            <div class="card mb-4">
+                <a href = "{% url "product_detail_view" product_id=item.id %}"> 
+                <h5>{{ item.title }} : {{ item.price }}</h5>
+                </a>
+            </div>
+        </div>
+        {% endfor %}
+  </div>
+{% endblock %}

@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block title %}
+<title>Homeworks|Dashboard</title>
+{% endblock %}
+
+{% block content %}
+
+<h1>Homeworks</h1>
+
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+    {% for key in card_titles %}
+        <div class="col mb-4">
+          <div class="card-h100">
+            <div class="card-body">
+              <h5 class="card-title">{{ key }}</h5>
+            </div>
+          </div>
+        </div>
+    {% endfor %}
+</div>
+
+<div class="card-h100">
+  <div class="table-responsive">
+    <table class="table table-sm table-bordered table-striped table-hover">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">"Year"</th>
+          <th scope="col">"Value"</th>
+        </tr>
+      </thead>
+      <tbody>
+       {% for row in data %}
+          <tr>
+            <td scope="row">{{ row.0 }}</td>
+            <td>{{ row.1 }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endblock %}
