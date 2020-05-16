@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "C:\\Users\\olivi.000\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
+    "python.pythonPath": "C:\\ProgramData\\Anaconda3\\python.exe",
     "psi-header.config": {
 		"forceToTop": true,
 		"blankLinesAfter": 6,

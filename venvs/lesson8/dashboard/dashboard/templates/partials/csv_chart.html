@@ -1,0 +1,27 @@
+<canvas id="myChart" width="100%"></canvas>
+<script>
+var ctx = document.getElementById('myChart').getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+        labels: {{ chart_labels|safe }},
+        datasets: [{
+            label: '{{ chart_title }}',
+            data: {{ chart_data|safe }},
+            borderColor: 'rgb(28.3%, 84.3%, 96.8%)',
+            backgroundColor: 'rgb(64.6%, 86.1%, 90.9%)',
+            pointBorderColor: 'rgb(28.4%, 63.7%, 71.4%)',
+            pointBackgroundColor: 'rgb(28.4%, 63.7%, 71.4%)',
+        }]
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        }
+    }
+});
+</script>

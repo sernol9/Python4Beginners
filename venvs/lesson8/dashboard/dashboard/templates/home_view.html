@@ -32,6 +32,24 @@
       </div>
     </div>
   </div>
+    <!-- This is the new code -->
+  <div class="col mb-4">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title">File Change Time</h5>
+        <form method="POST" action=".">
+          {% csrf_token %}
+          <input type="text" name="filename" placeholder="filename" value="{{ filename }}" />
+          <button>Submit</button>
+        </form>
+        {% if filename %}
+        <hr />
+        <p>{{ filename }}: {{ change_time }}</p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  <!-- End of new code -->
 </div>
 
 <div class="row row-cols-1 row-cols-md-2">

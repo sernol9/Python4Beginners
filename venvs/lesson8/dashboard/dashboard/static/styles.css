@@ -9,8 +9,8 @@ body {
   height: 100%;
 }
 
-.card-h100 {
-  background-color: rgb(255, 250, 250);
+.card {
+  background-color: whitesmoke;
   padding: 1em;
 }
 

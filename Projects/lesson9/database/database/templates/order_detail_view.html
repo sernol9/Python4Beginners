@@ -1,0 +1,7 @@
+{% extends "base.html"%}
+{% block content %}
+<h1>Order Details</h1>
+<p>Id: {{ order.id }}</p>
+<p>Product: {{ order.product.title }} (${{ order.product.price }})</p>
+<p>Quantity: {{ order.quantity }}</p>
+{% endblock %}
