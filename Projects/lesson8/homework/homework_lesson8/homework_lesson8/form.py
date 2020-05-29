@@ -6,15 +6,13 @@ class LoginForm (forms.Form):
 
     def clean_username(self):
         data = self.cleaned_data.get('username')
-        # do your custom validation code here
-        # if you found an error, you can do this:
-        # raise forms.ValidationError("Error message")
+        if data != 'admin':
+            raise forms.ValidationError('Wrong username')
         return data
 
     def clean_password(self):
         data = self.cleaned_data.get('password')
-        # do your custom validation code here
-        # if you found an error, you can do this:
-        # raise forms.ValidationError("Error message")
+        if data != 'password':
+            raise forms.ValidationError('Wrong password')
         return data
 

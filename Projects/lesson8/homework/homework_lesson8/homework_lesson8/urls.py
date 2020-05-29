@@ -8,6 +8,7 @@ from . import views
 urlpatterns = [
     path('', views.home_view, name='home_view'),
     path('admin/', admin.site.urls),
+    path ('profile/',views.profile_view, name='profile_view')
 ]
 
 if settings.DEBUG:
