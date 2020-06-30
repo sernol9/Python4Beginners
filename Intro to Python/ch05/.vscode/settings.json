@@ -1,3 +1,69 @@
 {
-    "python.pythonPath": "C:\\Users\\olivi.000\\AppData\\Local\\Programs\\Python\\Python37\\python.exe"
+    "python.pythonPath": "C:\\Users\\olivi.000\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
+    "psi-header.config": {
+		"forceToTop": true,
+		"blankLinesAfter": 6,
+		"license": "Custom"
+	},
+	"psi-header.changes-tracking": {
+		"isActive": true,
+		"modAuthor": "Modified By: ",
+		"modDate": "Last Modified: ",
+		"modDateFormat": "date",
+		"include": [],
+		"excludeGlob": [
+			"out/**",
+			"src/**/*.xyz"
+		],
+		"autoHeader": "manualSave"
+	},
+	"psi-header.license-text": [
+		"Know thy self, know thy enemy. A thousand battles, a thousand victories"
+    ],
+	"psi-header.variables": [
+		["company", "OLI CO. LTD."],
+		["author", "Olivia Serna"],
+		["authoremail", "olivia.serna@gmail.com"]
+    ],
+	"psi-header.lang-config": [
+        {
+			"language": "python",
+			"begin": "###",
+			"prefix": "# ",
+			"end": "###",
+			"blankLinesAfter": 0,
+			"beforeHeader": [
+				"#!/usr/bin/env python3",
+				"# -*- coding:utf-8 -*-"
+            ]
+        }
+	],
+	"psi-header.templates": [
+        {
+			"language": "*",
+			"template": [
+				"File: <<filepath>>",
+				"Project: <<projectpath>>",
+				"Created Date: <<filecreated('dddd, MMMM Do YYYY, h:mm:ss a')>>",
+				"Author: <<author>>",
+				"Description: ",
+				"-----",
+				"Last Modified: ",
+				"Modified By: ",
+				"-----",
+				"Copyright (c) <<year>> <<company>>",
+				"",
+				"<<licensetext>>",
+				"-----",
+				"HISTORY:",
+				"Date      \tBy\tComments",
+				"----------\t---\t----------------------------------------------------------"
+			],
+			"changeLogCaption": "HISTORY:",
+			"changeLogHeaderLineCount": 2,
+			"changeLogEntryTemplate": [
+				"<<dateformat('YYYY-MM-DD')>>\t<<initials>>\t"
+			]
+		}
+	]
 }
